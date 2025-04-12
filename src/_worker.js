@@ -1,5 +1,5 @@
 export default {
-  async function fetch(request, env, ctx) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const pathname = url.pathname;
 
